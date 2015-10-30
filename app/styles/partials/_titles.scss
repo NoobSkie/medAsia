@@ -4,6 +4,9 @@
   font-size: 60%;
   color: #999;
 }
+.flex-title{
+  margin: 0;
+}
 
 .flex-title {
   display: flex;
@@ -18,6 +21,47 @@
     color: $color-secondary;
   }
 }
+
+
+.focus-block{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: $color-primary;
+    .flex-title {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    > a {
+      white-space: nowrap;
+      color: $color-primary;
+    }
+    >span{
+      color: #FFF;
+    }
+    .title-descr{
+      color: $color-secondary;
+      font-size: 0.7em;
+      margin: 10px 0px;
+    }
+    .title-main {
+      flex-grow: .1;
+      color: $color-secondary;
+    }
+  }
+  img{
+    width: 100%;
+    max-width: 125px;
+    float: left;
+    margin: 0 20px 0 0;
+  }
+  p{
+    padding: 0 15px;
+    color: #FFF;
+  }
+}
+
+
+
 
 .sub-title{
   color: $color-secondary;
