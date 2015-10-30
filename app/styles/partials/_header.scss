@@ -1,0 +1,58 @@
+header{
+  .container-fluid{
+    padding:0;
+    overflow: hidden;
+  }
+  .logo{
+    img{
+      width: 100%;
+      max-width: 165px;
+      margin: 0px auto;
+      display: block;
+    }
+    a{
+      font-family: Myriad Pro;
+      color: $color-tertiary
+    }
+    span{
+      font-size: 0.7em;
+      display: none;
+    }
+  }
+  .input-group{
+    width: 50%;
+    input{
+      height:50px;
+    }
+  }
+  .my-profile{
+    background-color: $color-primary;
+    height: 90px;
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+    color: #FFF;
+    .border-clip{
+      display: inline-block;
+      width: 0px;
+      height: 0px;
+      border-style: solid;
+      border-width: 30px 30px 0px;
+      border-color: #2A2A2A transparent transparent;
+      position: absolute;
+      top: 0px;
+      right: -30px;
+    }
+  }
+  .navbar-header{
+    text-align: center;
+    .navbar-toggle{
+      float: none;
+      margin: 0px;
+      border: 0px none;
+      font-size: 1.5em;
+      color: $color-secondary
+    }
+  }
+}

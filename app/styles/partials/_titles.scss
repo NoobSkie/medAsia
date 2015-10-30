@@ -1,0 +1,29 @@
+.title {
+}
+.title-note {
+  font-size: 60%;
+  color: #999;
+}
+
+.flex-title {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  > a {
+    white-space: nowrap;
+    color: $color-primary;
+  }
+  .title-main {
+    flex-grow: 1;
+    color: $color-secondary;
+  }
+}
+
+.sub-title{
+  color: $color-secondary;
+}
+.sub-date{
+  color: $color-primary;
+  margin: 15px 0px;
+  display: block;
+}

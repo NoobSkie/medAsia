@@ -1,0 +1,74 @@
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : $screen-phone) {
+    header{
+      .logo{
+        span{
+            font-size: 0.7em;
+            display: inline;
+        }
+      }
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    body{
+        background-color: green;
+    }
+    header{
+      .logo{
+        a{
+            color: #FFF;
+        }
+        img{
+          margin: 0px;
+        }
+      }
+      .input-group{
+        width: 30%;
+      }
+      .my-profile{
+        height: auto;
+        padding: 12.5px 15px;
+        .border-clip{
+          border-width: 20px 25px 0px;
+          border-color: #2A2A2A transparent transparent;
+          position: absolute;
+          top: 0px;
+          right: -30px;
+        }
+      }
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    header{
+        .logo{
+            a{
+                display: none;
+            }
+        }
+        .navbar-inverse{
+            background-color: $header-desktop;
+        }
+        .my-profile{
+            height: auto;
+            padding: 12.5px 15px;
+            .border-clip{
+            border-width: 20px 25px 0px;
+            border-color: $header-desktop transparent transparent;
+            position: absolute;
+            top: 0px;
+            right: -30px;
+            }
+        }
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    body{
+        background-color: yellow;
+    }
+}

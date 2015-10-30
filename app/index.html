@@ -1,0 +1,146 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="medAsiaApp">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header col-xs-6 col-sm-4">
+                    <div class="navbar-brand logo">
+                        <a href="#!">MEDIASIA</a>  <span>Intranet France</span>
+                    </div>
+                </div>
+                <a class="my-profile pull-right visible-sm-block visible-lg-block visible-md-block" href="#!">+ Mon Profile <span class="border-clip"></span></a>
+                <div class="input-group pull-right">
+                  <input type="text" class="form-control" placeholder="Recherche">
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="visible-xs-block visible-sm-inline">
+
+                    <div class="col-xs-6 col-sm-3 no-padding logo">
+                        <img src="images/LogoM.png" alt="">
+                    </div>
+                    <div class="col-xs-6 visible-xs-block no-padding">
+                        <a class="my-profile" href="#!">+ Mon Profile <span class="border-clip"></span></a>
+                    </div>
+
+            </div>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-nav">
+                        <span>Accueil</span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse main-nav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">it1d</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#about">it2d</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#contact">it3d</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#contact">it4d</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#contact">it5d</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#contact">it6d</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#contact">it7d</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container-fluid">
+        <div ng-view=""></div>
+    </div>
+
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="visible-xs-block">
+            <div class="row footer-logo">
+                <img src="images/LogoM.png" alt="">
+            </div>
+            <div class="row">
+                <div class="col-xs-12 no-padding">
+                  <div class="pull-left footer-client">
+                    <ul class="list-inline">
+                      <li class="dgrey">4</li>
+                      <li class="grey">9</li>
+                      <li class="grey">7</li>
+                      <li class="grey">3</li>
+                      <li class="white">4</li>
+                      <li class="white">9</li>
+                      <li class="white">3</li>
+                    </ul>
+                    <p><span>clients</span>
+                      <br>dont <b>1 987 456</b> à valeur</p>
+                  </div>
+                  <div class="pull-right footer-price">
+                    <span class="date">04 Mars 2014</span>
+                    <span class="time">11:28</span>
+                    <span class="money">350,45€ <span class="percent">+0,56 %</span></span>
+                    <a href="#!">> valeurs</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <p>Ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia magna eu blandit eleifend. Praesent justo augue, rutrum vitae convallis quis, condi mentum vitae Vestibulum congue faucibus.</p>
+                <a href="#!">Sit amet fringilla velit tincidunt</a>
+                <a href="#!">Nullam condimentum vehicula blandit</a>
+                <a href="#!">Sed scelerisque</a>
+                <a href="#!">Fusce tincidunt</a>
+            </div>
+        </div>
+       <!--<span class="visible-xs">SIZE XS</span><span class="visible-sm">SIZE SM</span><span class="visible-md">SIZE MD</span><span class="visible-lg">SIZE LG</span>-->
+      </div>
+    </div>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

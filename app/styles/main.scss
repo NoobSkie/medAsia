@@ -1,0 +1,38 @@
+/* BASE.
+========================================================================== */
+
+@import 'base/_variables.scss';
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+/* PARTIALS.
+========================================================================== */ 
+@import "partials/_header.scss";
+@import "partials/_titles.scss";
+@import "partials/_footer.scss";
+@import "partials/_responsive.scss";
+
+
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 50px 0 0 0;
+}
+
+.container-fluid {
+   max-width:990px;
+}
+.no-padding{padding:0!important}
+.no-padding--left{padding-left:0!important}
+.no-padding--right{padding-right:0!important}
+
+.img-responsive{
+  width: 100%;
+}

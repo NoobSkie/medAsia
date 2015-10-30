@@ -1,0 +1,21 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+
+$font-family-sans-serif:  "Open Sans", Helvetica, Arial, sans-serif;
+$font-size-base: 18px !default;
+$navbar-inverse-bg: #2A2A2A;
+
+$orange:    #FF6D00;
+$red:       #7E1D28;
+$grey:      #bfbfbf;
+$off-grey:  #dedede;
+
+$color-primary: $orange;
+$color-secondary: $red;
+$color-tertiary: $grey;
+
+$header-desktop: #6e1010;
+$footer-text:   #232323;
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Myriad Pro!important;
+}

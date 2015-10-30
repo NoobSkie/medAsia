@@ -1,0 +1,27 @@
+.footer{
+  background-color: $off-grey;
+  padding: 20px 0px;
+  p, a{
+    color: $footer-text;
+  }
+  a{
+    display: block;
+    font-weight: 100;
+    margin: 20px 0;
+  }
+}
+.footer-logo{
+  padding: 0px 0px 20px 40px;
+  img{
+    width: 100%;
+    max-width: 150px;
+  }
+}
+.footer-client{
+  width: 45%;
+  background-color: #eee
+}
+.footer-price{
+  background-color: #eee;
+  width: 55%;
+}
